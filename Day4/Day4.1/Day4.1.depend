@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1621337640 source:c:\day4.1\src\fraction.cpp
+	"Fraction.h"
+
+1621343521 c:\day4.1\include\fraction.h
+	<iostream>
+
+1621344698 source:c:\day4.1\main.cpp
+	<iostream>
+	"Fraction.h"
+

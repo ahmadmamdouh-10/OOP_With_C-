@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1621245174 source:c:\day3.excs\main.cpp
+	<iostream>
+	"complex.h"
+
+1621245174 c:\day3.excs\include\complex.h
+	<iostream>
+
+1621245174 source:c:\day3.excs\src\complex.cpp
+	"complex.h"
+

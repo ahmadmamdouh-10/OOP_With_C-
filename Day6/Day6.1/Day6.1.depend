@@ -1,0 +1,71 @@
+# depslib dependency file v1.0
+1621500284 source:c:\day6.1\src\circle.cpp
+	"Circle.h"
+
+1621518521 
+
+1621506584 c:\day6.1\include\circle.h
+
+1621517865 source:c:\day6.1\main.cpp
+	<iostream>
+	<Square.h>
+	<Rectangle.h>
+	<Circle.h>
+	<Picture.h>
+
+1621517865 >
+
+1621500366 c:\day6.1\include\rectangle.h
+
+1621500516 c:\day6.1\include\square.h
+
+1621500294 source:c:\day6.1\src\rectangle.cpp
+	"Rectangle.h"
+
+1621500294 .h"
+
+1621500505 source:c:\day6.1\src\square.cpp
+	"Square.h"
+
+1621500550 source:c:\day6.1\src\picture.cpp
+	"Picture.h"
+
+1621500550 "
+
+1621518521 c:\day6.1\include\picture.h
+	<Square.h>
+	<Rectangle.h>
+	<Circle.h>
+	<iostream>
+
+1621485464 source:/media/do7a/New Volume/iti/S_F/OOP/Labs/Day6/Day6.1/main.cpp
+	<iostream>
+	<Square.h>
+	<Rectangle.h>
+	<Circle.h>
+	<Picture.h>
+
+1621604059 /media/do7a/New Volume/iti/S_F/OOP/Labs/Day6/Day6.1/include/Square.h
+
+1621604059 /media/do7a/New Volume/iti/S_F/OOP/Labs/Day6/Day6.1/include/Rectangle.h
+
+1621604059 /media/do7a/New Volume/iti/S_F/OOP/Labs/Day6/Day6.1/include/Circle.h
+
+1621604067 /media/do7a/New Volume/iti/S_F/OOP/Labs/Day6/Day6.1/include/Picture.h
+	<Square.h>
+	<Rectangle.h>
+	<Circle.h>
+	<iostream>
+
+1621467884 source:/media/do7a/New Volume/iti/S_F/OOP/Labs/Day6/Day6.1/src/Circle.cpp
+	"Circle.h"
+
+1621468150 source:/media/do7a/New Volume/iti/S_F/OOP/Labs/Day6/Day6.1/src/Picture.cpp
+	"Picture.h"
+
+1621467894 source:/media/do7a/New Volume/iti/S_F/OOP/Labs/Day6/Day6.1/src/Rectangle.cpp
+	"Rectangle.h"
+
+1621468104 source:/media/do7a/New Volume/iti/S_F/OOP/Labs/Day6/Day6.1/src/Square.cpp
+	"Square.h"
+

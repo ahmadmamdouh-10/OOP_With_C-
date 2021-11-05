@@ -1,0 +1,43 @@
+# depslib dependency file v1.0
+1620737765 source:/media/do7a/New Volume/iti/software fundamentals/OOP/Labs/Day2/src/Rectangle.cpp
+	"Rectangle.h"
+
+1620738468 /media/do7a/New Volume/iti/software fundamentals/OOP/Labs/Day2/include/Rectangle.h
+
+1620737765 source:/media/do7a/New Volume/iti/software fundamentals/OOP/Labs/Day2/src/Square.cpp
+	"Square.h"
+
+1620737699 /media/do7a/New Volume/iti/software fundamentals/OOP/Labs/Day2/include/Square.h
+
+1620737765 source:/media/do7a/New Volume/iti/software fundamentals/OOP/Labs/Day2/src/Circle.cpp
+	"Circle.h"
+
+1620737699 /media/do7a/New Volume/iti/software fundamentals/OOP/Labs/Day2/include/Circle.h
+
+1620737948 source:/media/do7a/New Volume/iti/software fundamentals/OOP/Labs/Day2/main.cpp
+	<iostream>
+	"Circle.h"
+	"Rectangle.h"
+	"Square.h"
+
+1620737948 source:/media/do7a/New Volume/iti/S_F/OOP/Labs/Day2/main.cpp
+	<iostream>
+	"Circle.h"
+	"Rectangle.h"
+	"Square.h"
+
+1620737699 /media/do7a/New Volume/iti/S_F/OOP/Labs/Day2/include/Circle.h
+
+1620738468 /media/do7a/New Volume/iti/S_F/OOP/Labs/Day2/include/Rectangle.h
+
+1620737699 /media/do7a/New Volume/iti/S_F/OOP/Labs/Day2/include/Square.h
+
+1620737765 source:/media/do7a/New Volume/iti/S_F/OOP/Labs/Day2/src/Circle.cpp
+	"Circle.h"
+
+1620737765 source:/media/do7a/New Volume/iti/S_F/OOP/Labs/Day2/src/Rectangle.cpp
+	"Rectangle.h"
+
+1620737765 source:/media/do7a/New Volume/iti/S_F/OOP/Labs/Day2/src/Square.cpp
+	"Square.h"
+
