@@ -1,0 +1,190 @@
+Day8:
+=====
+
+*Review of previous day.
+                                 ****************************
+** The pure virtual Function 
+ 
+- virtual FunctionName()=0;
+             
+
+*** Two types of Classes :
+ 1- concrete Class(Normal Class).
+ 2- Abstract Class(made only to inhertince from it but cannot make an Object from it
+    but can make a Pointer from it).
+
+**** When a ClassParent is an Abstract Class (using pure virtual function) so the ClassChild will  also inherite the pure virtual function and ClassChild will be AbstractClass.
+
+                                 **********************************
+
+
+* Multiple Inhertice : is inherite one class from 2 class 
+
+-
+ class Parent()
+  {};
+ class child1():public Parent
+  {};
+
+class child2():public Parent
+  {};
+
+class GrandChild():public child1 , public child2
+  {};
+
+
+** Multiple inheritance Issues :
+
+1- GrandChild will inherite two of Parent one from child1 and one from child2.
+
+# HOW TO SOLVE IT?  
+
+- virtual (Another virtual differntiate from virtual of polymorphism)
+
+class Parent()
+  {};
+ class child1(): virtual public Parent
+  {};
+
+class child2(): virtual public Parent
+  {};
+
+class GrandChild():public child1 , public child2
+  {};
+
+
+2- GrandChild will inherite 4 constructors:
+  two from child1 and Parent and two from child2 and Parent.
+
+# HOW TO SOLVE IT?
+
+- virtual (Another virtual differntiate from virtual of polymorphism)
+= so what will happen is the compiler will debug just 3 constructors:
+                                                        ConstructorParent() 
+                                                        ConstructorChild1()
+                                                        ConstructorChild2()
+
+                                ********************************************
+
+* Access modifier Types of Inheritence:  
+1- public : 
+
+= you will inherite all access datatypes modifiers as its so :
+-the public data type will be public and can interact with it.
+-the protected date types will be protected and cannot interact with it by object.
+-the private data types will be private and cannot interact with it.
+
+
+2- protected : 
+
+= you will inherite all access datatypes modifiers as the following:
+
+-the public data type will be protected and can interact with by class 
+ but cannot interact with it by object.
+-the protected date types will be protected can interact with by class 
+  but cannot interact with it by object 
+-the private data types will be private and cannot interact with it by object or class.
+
+
+3- private :
+
+= you will inherite all access datatypes modifiers as the following:
+
+-the public data type will be private and can interact with by class 
+ but cannot interact with it by object.
+-the protected date types will be private can interact with by class 
+  but cannot interact with it by object.
+-the private data types will be private and cannot interact with it by object or class.
+
+
+
+
+
+
+             **********************************************************
+
+* Templates:
+============
+- if i have an overloading of function 
+
+int sum(int x , int y )
+{
+  return x + y;
+
+}
+
+
+double sum(double x , double y )
+{
+  return x + y;
+
+}
+
+
+float sum(float x , float y )
+{
+  return x + y;
+
+}
+
+
+HOW TO SOLVE IT :: or to write with a less code::
+===============
+
+template <class T>
+
+T sum(T x, T y)
+{
+   return x+y;
+}
+
+cout<< sum<int>(2,3) <<endl;          // int the main.   
+
+-----
+ 
+template <class T1> 
+class complex
+{
+ private: 
+ T1 real, imgaine;
+
+ public: 
+
+  void setReal(T1 _real) 
+   {
+     real = _real;      
+   }
+
+ T1 getReal()
+ {
+    return real; 
+ }
+
+ void display()
+    {
+        cout<< real << "+" <<imagine <<"i"<< endl;
+    }
+
+};
+
+complex<int> c1;       //in main: 
+c1.setImagine(3);
+c1.setReal(7);
+c1.display();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
